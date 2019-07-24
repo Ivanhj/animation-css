@@ -1,0 +1,23 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+#lianzo{
+	width: 900px;
+	height: 600px;
+	background-color: purple; 
+	animation-name: fondocolor;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	
+}
+#movido{
+	color: teal;
+	
+}
+@keyframes fondocolor {
+  0% {background-color: purple;}
+  30% {background-color: orange;}
+  60% {background-color: skyblue;}
+}
